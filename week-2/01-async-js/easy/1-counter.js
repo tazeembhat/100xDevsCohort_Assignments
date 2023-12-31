@@ -1,0 +1,14 @@
+// Create a counter in JavaScript
+// We have already covered this in the second lesson, but as an easy recap try to code a counter in Javascript
+// It should go up as time goes by in intervals of 1 second
+
+let x = 0;
+const c = setInterval(() => {
+    console.log(++x);
+    if(x === 10){
+        clearInterval(c);
+        console.log("TimeOut!")
+    }
+}, 1000);
+
+
