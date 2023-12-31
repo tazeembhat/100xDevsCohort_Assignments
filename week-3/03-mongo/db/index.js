@@ -4,7 +4,7 @@ const express = require("express");
 const app = express();
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://admin:Tazeem%401234@mydb.fxuowye.mongodb.net/week3');
+mongoose.connect('mongo-db-url');
 
 // Define schemas
 const AdminSchema = new mongoose.Schema({
